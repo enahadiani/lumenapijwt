@@ -52,10 +52,6 @@ $router->group(['prefix' => 'api'], function () use ($router) {
     $router->put('/siswa/{id}','DevSiswaController@update');
     $router->delete('/siswa/{id}','DevSiswaController@destroy');
 
-    //tgh
-    $router->get('/tgh','DevTagihanController@index');
-    $router->post('/tgh','DevTagihanController@store');
-
 
 });
  
